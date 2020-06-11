@@ -19,9 +19,9 @@ I minimized the use of media queries by using Bootstrap built in features. All o
 
 
 
-## Link to Deployed Site
+## Link to Site
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Deployed website [nicole](https://nicoleremy95.github.io/hw2_responsive_portfolio/index.html)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
