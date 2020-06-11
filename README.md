@@ -13,7 +13,7 @@ On my index.html, I have included an about me section with a header, text, and i
 
 For bootstrap, I have included the bootstrap grid system and built-in bootstrap class properties in the HTML. All of these pages are mobile responsive; the content shifts and resizes to accomodate the screen size. 
 
-For semantics, I have utilized: section, footer, nav, and h1,h2,h3,etc. 
+For semantics, I have utilized: section, header, footer, nav, and h1,h2,h3,etc. 
 
 I minimized the use of media queries by using Bootstrap built in features. All of the HTML code has been put through a validation website. 
 

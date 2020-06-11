@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nicole</title>
-    <!-- favicon -->
+    <!-- favicon link-->
     <link rel="shortcut icon" href="https://img.icons8.com/ios-filled/50/000000/circled-n.png" type="image/x-icon">
     <!-- reset css link  -->
     <link rel="stylesheet" href="reset.css">
@@ -15,9 +15,10 @@
     <!-- font awesome link  -->
     <script src="https://kit.fontawesome.com/0f2d963ed1.js" crossorigin="anonymous"></script>    
 </head>
+<!-- body -->
 <body>
-    <!-- container main -->
-    <section class="container">
+    <!-- container header -->
+    <header class="container">
         <!-- row 1 header -->
         <div class="row">
             <!-- column 1 nav bar -->
@@ -37,48 +38,50 @@
                 <h1 class="text-center"><a href="contact.html">contact</a></h1>
             </div>
         </div>
-        <!-- row 2 about me-->
+    </header>
+    <!-- container main   -->
+    <section class="container gray-box">
+         <!-- row 1 about me-->
         <div class="row">
-            <!-- column 1 about me over all-->
-            <div class="col-md-12 gray-box">
-                <!-- row 1 about me -->
-                <div class="row">
-                    <h2>about me</h2>
-                </div>
-                <!-- row 2 info and picture  -->
-                <div class="row">
-                    <div class="col-md-8 p-1">
-                        <p class="text">Welcome to the website that tells you all about me. My name is Nicole, I am a Washingtonian, and I love music. 
-                        </p>
-                        <p class="text">During my free time, you can find me enjoying long walks, reading, or drinking coffee during the sunrise. My most recent televsion show bing is "Riverdale".
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <img class="img-fluid" width="90%" src="images/IMG_1930.jpeg" alt="picture of me" style="img-thumbnail; margin-right: 15px;">
-                    </div>  
-                </div>
+            <!-- column 1 "about me" -->
+            <div class="col-md-12">
+                <h2>about me</h2>
             </div>
         </div>
-        <!-- row 3 carousel -->
-        <div class="row carousel">
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-20" src=https://www.columbusunderground.com/wp-content/uploads/2017/09/staufs-300x300.jpg alt="First slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-20" src="https://www.chewfo.com/wp-content/uploads/2015/01/Stack-of-books-300x300.jpg" alt="Second slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-20" src="https://i.scdn.co/image/ab67706c0000da84f3bf640ef12d815660e3b0c9" alt="Third slide">
-                        </div>
-                    </div>
-                </div>      
+        <div class="row">
+            <div class="col-md-8 p-1">
+                <p class="text">Welcome to the website that tells you all about me. My name is Nicole, I am a Washingtonian, and I love music. 
+                </p>
+                <p class="text">I graduated from the University of Southern California in 2018 with a degree in GeoDesign. From there, I worked as an Architecture Associate for two years while dancing professionally in the NFL. Currently, I am studying to become a web developer.
+
+                </p>
+                <p class="text">During my free time, you can find me enjoying long walks, reading, or drinking coffee while watching the sunrise. I am also an avid Netflix binger; my most recent of which is "Riverdale".
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" width="90%" src="images/IMG_1930.jpeg" alt="picture of me" style="img-thumbnail; margin-right: 15px;">
+            </div> 
         </div>
     </section>
     <!-- container footer-->
     <footer class="containter">
-        <!-- row 1 follow me  -->
+        <!-- row 1 carousel -->
+        <div class="row carousel">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-20" src=https://www.columbusunderground.com/wp-content/uploads/2017/09/staufs-300x300.jpg alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-20" src="https://www.chewfo.com/wp-content/uploads/2015/01/Stack-of-books-300x300.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-20" src="https://i.scdn.co/image/ab67706c0000da84f3bf640ef12d815660e3b0c9" alt="Third slide">
+                    </div>
+                </div>
+            </div>      
+        </div>
+        <!-- row 2 follow me  -->
         <div class="row follow-me">
             <div class="col-md"></div>
             <div class="col-md-auto">
@@ -86,7 +89,7 @@
             </div>
             <div class="col-md"></div>
         </div>
-            <!-- row 2 font awesome-->
+        <!-- row 3 font awesome links-->
         <div class="row">
             <!-- columns -->
             <div class="col-md"></div>             
@@ -112,9 +115,9 @@
             <div class="col-md-4"></div>
         </div>
     </footer>
-     <!-- js link -->
-     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>   
+    <!-- js link -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>   
 </body>
 </html>
