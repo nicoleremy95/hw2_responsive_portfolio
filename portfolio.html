@@ -3,29 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nicole | portfolio</title>
-     <!-- favicon -->
-     <link rel="shortcut icon" href="https://img.icons8.com/ios-filled/50/000000/circled-n.png" type="image/x-icon">
+    <title>nicole</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="https://img.icons8.com/ios-filled/50/000000/circled-n.png" type="image/x-icon">
+    <!-- reset css link  -->
+    <link rel="stylesheet" href="reset.css">
     <!-- bootstrap link -->
-    <link rel="stylesheet" text="text/css" href="reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" text="text/css" href="style.css">
+    <!-- style css link -->
+    <link rel="stylesheet" href="style.css">
     <!-- font awesome link  -->
     <script src="https://kit.fontawesome.com/0f2d963ed1.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- container header  -->
-    <div class="container">
+    <section class="container">
         <!-- row 1 -->
-        <section class="row">
+        <div class="row">
             <!-- column 1 nav bar -->
-            <div class="col-md-6">
+            <div class="col-md-6 pl-0 pr-0">
                 <nav class="navbar navbar-dark bg-dark">
                 <span class="navbar-brand mb-0 h1 custom-logo">nicole</span>
                 </nav>
             </div>
              <!-- column 2 links -->
-            <div class="col-md-2 col-sm-4 col-4">
+             <div class="col-md-2 col-sm-4 col-4">
                 <h1 class="text-center"><a href="index.html">about</a></h1>
             </div>
             <div class="col-md-2 col-sm-4 col-4">
@@ -34,23 +36,28 @@
             <div class="col-md-2 col-sm-4 col-4">
                 <h1 class="text-center"><a href="contact.html">contact</a></h1>
             </div>
-        </section>
-   
+        </div>
     <!-- row 2 -->
-        <section class="row about-me">
-            <div class="col-md-4">
+        <div class="row">
+            <div class="col-md-12">
+                <h4>portfolio</h4>
+            </div>
+        </div>
+    <!-- row 3 -->
+        <div class="row white-box">
+            <div class="col-md-4 p-1">
                 <!-- card 1 -->
-                <div class="card">
+                <div class="card p-3">
                     <img src="images/rsz_1screen_shot_2020-06-09_at_24206_pm.png" class="card-img-top" alt="homework 1">
                     <div class="card-body">
                         <h3 class="card-title">coderefractor</h3>
-                        <p class="card-text">This project is homework 1 code refracting. This project was completed on in June 2020.</p>
+                        <p class="card-text">This project is homework 1 code refracting. This project was completed on in June.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 p-1">
                 <!-- card 2 -->
-                <div class="card" >
+                <div class="card p-3">
                     <img src="images/rsz_1screen_shot_2020-06-09_at_25837_pm.png" class="card-img-top" alt="about me">
                     <div class="card-body">
                         <h3 class="card-title">about me</h3>
@@ -58,9 +65,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 p-1">
                 <!-- card 3 -->
-                <div class="card" >
+                <div class="card p-3">
                     <img src="images/rsz_screen_shot_2020-06-09_at_31128_pm.png" class="card-img-top" alt="jelly fish fields">
                     <div class="card-body">
                         <h3 class="card-title">jelly fish fields</h3>
@@ -68,25 +75,23 @@
                     </div>
                 </div>
             </div>
-        </section>
-    </div>
-</body>
-<footer>
+        </div>
+    </section>
     <!-- container footer-->
-    <div class="containter">
-       <!-- row 1 follow me  -->
-        <section class="row follow-me">
+    <footer class="container">
+        <!-- row 1 follow me  -->
+        <div class="row follow-me">
             <div class="col-md"></div>
             <div class="col-md-auto">
-                <h2>follow me</h2>
+                <h5>follow me</h5>
             </div>
             <div class="col-md"></div>
-        </section>
-         <!-- row 2 font awesome-->
-        </section class="row">
+        </div>
+        <!-- row 2 font awesome-->
+        <div class="row">
             <!-- columns -->
             <div class="col-md"></div>             
-            <div class="col-md-auto font-awesome">
+            <div class="col-md font-awesome">
                 <a class="btn btn-lg btn-light" style=background-color:white href="https://www.instagram.com/nicole_remy">
                     <i class="fab fa-instagram fa-3x" style=color:#343A40></i> 
                 </a>
@@ -97,16 +102,16 @@
                     <i class="fab fa-linkedin-in fa-3x" style=color:#343A40></i>
                 </a>
             </div> 
-            <div class="col-md-"></div>      
-        <section>
+            <div class="col-md"></div>      
+        </div>
         <!-- row 3 copyright-->
-        <section class="row">
+        <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-4 center-block" style="text-align:center">
                 <h3>designed by nicole <br> <br>@ copyright 2020</h3>
             </div>
             <div class="col-md-4"></div>
-        </section>
-    </div>
-</footer>
+        </div>
+    </footer>
+</body>
 </html>
